@@ -1,0 +1,27 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node --watch src/server.js",
+    "start": "node src/server.js",
+    "docgen": "node src/util/docgen.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "ethers": "^6.0.2",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
+    "pg": "^8.9.0",
+    "pg-hstore": "^2.3.4",
+    "qrcode": "^1.5.1",
+    "sequelize": "^6.28.0",
+    "swagger-autogen": "^2.23.1",
+    "swagger-ui-express": "^4.6.0"
+  }
+}

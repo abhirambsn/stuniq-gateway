@@ -1,7 +1,7 @@
 const {Sequelize} = require('sequelize');
 
 const sequelize = new Sequelize(
-    "postgresql://blockpay:Blockpay%4011022023@ap-south-1.11bf3df0-d033-4fa2-92a6-5aa1393533f2.aws.ybdb.io:5433/blockpay?ssl=true&sslmode=verify-full&sslrootcert=/home/abhirambsn/dev/blockpay/api/root.crt"
+    "postgresql://blockpay:Blockpay%4011022023@ap-south-1.11bf3df0-d033-4fa2-92a6-5aa1393533f2.aws.ybdb.io:5433/blockpay?ssl=true&sslmode=verify-full&sslrootcert=root.crt"
 )
 
 const connect = async () => {

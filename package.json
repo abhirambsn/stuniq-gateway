@@ -10,8 +10,8 @@
     "docgen": "node src/util/docgen.js"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Bhallamudi Sai Narasimha Abhiram",
+  "license": "UNLICENSED",
   "dependencies": {
     "cors": "^2.8.5",
     "ethers": "^6.0.2",

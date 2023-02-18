@@ -5,10 +5,10 @@
     "title": "Stuniq API",
     "description": "Stuniq Crypto Payment Gateway API"
   },
-  "host": "localhost:5000",
+  "host": "api-stuniq.onrender.com",
   "basePath": "/",
   "schemes": [
-    "http"
+    "https"
   ],
   "paths": {
     "/api/payments/create": {
